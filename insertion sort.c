@@ -14,7 +14,7 @@ void insertionSort(int arr[], int N) {
             j = j - 1;
         }
 
-        
+        arr[j + 1] = key;
         
     }
 }
