@@ -19,3 +19,23 @@ void selectionSort(int arr[], int N) {
         
     }
 }
+
+int main() {
+    int arr[] = {64, 25, 12, 22, 11};
+    int N = sizeof(arr) / sizeof(arr[0]);
+    printf("Unsorted array: \n");
+    for (int i = 0; i < N; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+  
+      // Calling selection sort
+    selectionSort(arr, N);
+
+    printf("Sorted array: \n");
+    for (int i = 0; i < N; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+    return 0;
+}
