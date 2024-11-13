@@ -12,6 +12,9 @@ void selectionSort(int arr[], int N) {
                 min_idx = j;
             }
         }
+        int temp = arr[min_idx];
+        arr[min_idx] = arr[i];
+        arr[i] = temp;
 
         
     }
